@@ -80,7 +80,7 @@ $(document).ready(function(){
 			user.cash -= cost;
 			var average = (user.banana[1]/user.banana[0]);
 			average = roundCost(average);
-			$("#numBananas").text("Bananas: " + user.banana[0]);
+			$("#numBananas").text("Black Bear Meat lbs: " + user.banana[0]);
 			$("#avgBananas").text("Avg. Purchase Price: $" + average);
 			$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else{
@@ -94,7 +94,7 @@ $(document).ready(function(){
 		if(user.banana[0] > 0) {
 			user.banana[0]--;
 			user.cash += cost;
-			$("#numBananas").text("Bannas: " + user.banana[0]);
+			$("#numBananas").text("Black Bear Meat lbs: " + user.banana[0]);
 			$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else {
 			alert("You don't have any bananas!");
@@ -123,7 +123,7 @@ $(document).ready(function(){
 		user.cash -= cost;
 		var average = (user.apple[1]/user.apple[0]);
 			average = roundCost(average);
-		$("#numApples").text("Apples: " + user.apple[0]);
+		$("#numApples").text("Grizzly Bear Meat lbs: " + user.apple[0]);
 		$("#avgApples").text("Avg. Purchase Price: $" + average);
 		$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else{
@@ -140,7 +140,7 @@ $(document).ready(function(){
 			user.apple[0]--;
 			console.log(user.apple[0]);
 			user.cash += cost;
-			$("#numApples").text("Apples: " + user.apple[0]);
+			$("#numApples").text("Grizzly Bear Meat lbs: " + user.apple[0]);
 			$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else {
 			alert("You don't have any apples!");
@@ -158,7 +158,7 @@ $(document).ready(function(){
 		user.cash -= cost;
 		var average = (user.orange[1]/user.orange[0]);
 			average = roundCost(average);
-		$("#numOranges").text("Oranges: " + user.orange[0]);
+		$("#numOranges").text("Grizzly Bear Pelts: " + user.orange[0]);
 		$("#avgOranges").text("Avg. Purchase Price: $" + average);
 		$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else{
@@ -174,7 +174,7 @@ $(document).ready(function(){
 			user.orange[0]--;
 			console.log(user.orange[0]);
 			user.cash += cost;
-			$("#numOranges").text("Oranges: " + user.orange[0]);
+			$("#numOranges").text("Grizzly Bear Pelts: " + user.orange[0]);
 			$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else {
 			alert("You don't have any oranges!");
@@ -193,7 +193,7 @@ $(document).ready(function(){
 		user.cash -= cost;
 		var average = (user.pear[1]/user.pear[0]);
 			average = roundCost(average);
-		$("#numPears").text("Pears: " + user.pear[0]);
+		$("#numPears").text("Black Bear Pelts: " + user.pear[0]);
 		$("#avgPears").text("Avg. Purchase Price: $" + average);
 		$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else{
@@ -209,7 +209,7 @@ $(document).ready(function(){
 			user.pear[0]--;
 			console.log(user.pear[0]);
 			user.cash += cost;
-			$("#numPears").text("Pears: " + user.pear[0]);
+			$("#numPears").text("Black Bear Pelts: " + user.pear[0]);
 			$("#userPurchases").text("Dollars Remaining: $" + user.cash);
 		} else {
 			alert("You don't have any pears!");

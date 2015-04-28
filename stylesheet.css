@@ -1,10 +1,10 @@
 
 .button {
-       width: 60px;
+       width: 100px;
        padding: 5px 10px 5px 10px;
-       background-color: #AAAAAA;
+       background-color: #E2F0D6;
        border-radius: 15px;
-       margin: 0 auto;
+       margin: 10px auto;
        text-align: center;
        cursor: pointer;
 }
@@ -12,10 +12,19 @@
        /*display: inline-block;*/
        background-color: #BDD684;
        height: 500px;
+       text-align: center;
 }
 #user {
        background-color: #10222B;
        height: 200px;
        color: white;
-       font-size: 64px;
+}
+p {
+       margin: 10px 0;
+}
+#user p {
+       font-size: 36px;
+}
+h1 {
+       font-size: 100px;
 }
