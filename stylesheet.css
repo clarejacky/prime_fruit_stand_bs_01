@@ -1,0 +1,21 @@
+
+.button {
+       width: 60px;
+       padding: 5px 10px 5px 10px;
+       background-color: #AAAAAA;
+       border-radius: 15px;
+       margin: 0 auto;
+       text-align: center;
+       cursor: pointer;
+}
+.well {
+       /*display: inline-block;*/
+       background-color: #BDD684;
+       height: 500px;
+}
+#user {
+       background-color: #10222B;
+       height: 200px;
+       color: white;
+       font-size: 64px;
+}
